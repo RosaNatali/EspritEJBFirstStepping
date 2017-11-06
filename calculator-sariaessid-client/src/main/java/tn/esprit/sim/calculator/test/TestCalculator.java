@@ -16,7 +16,7 @@ public class TestCalculator{
 		CalculatorServicesRemote proxy = (CalculatorServicesRemote) context.lookup(
 				"calculator-sariaessid-ear/calculator-sariaessid-ejb/CalculatorServices!tn.esprit.sim.calculator.services.CalculatorServicesRemote");
 
-		System.out.println("Addition bb:" + proxy.addition(1, 2));
+		System.out.println("Addition :" + proxy.addition(1, 2));
 		System.out.println("Substraction :" + proxy.substraction(2, 1));
 		System.out.println("Multiplication :" + proxy.multiplication(1, 2));
 		System.out.println("Division :" + proxy.division(1, 2));
